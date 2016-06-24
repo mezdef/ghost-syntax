@@ -1,0 +1,16 @@
+{
+  "name": "ghost-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark Atom theme",
+  "keywords": [
+    "syntax",
+    "dark",
+    "theme"
+  ],
+  "repository": "https://github.com/mezdef/ulysses-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

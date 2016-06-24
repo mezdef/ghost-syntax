@@ -1,0 +1,26 @@
+@import "syntax-variables";
+
+// Vim Plugin
+atom-text-editor.vim-mode.normal-mode::shadow .cursor,
+atom-text-editor.vim-mode.operator-pending-mode::shadow .cursor,
+atom-text-editor.vim-mode.visual-mode::shadow .cursor,
+atom-text-editor.vim-mode.normal-mode .cursor,
+atom-text-editor.vim-mode.operator-pending-mode .cursor,
+atom-text-editor.vim-mode.visual-mode .cursor {
+    // background-color: @green;
+    opacity: 1;
+    visibility: visible;
+}
+
+atom-text-editor.vim-mode.normal-mode.is-focused::shadow .cursor,
+atom-text-editor.vim-mode.operator-pending-mode.is-focused::shadow .cursor,
+atom-text-editor.vim-mode.visual-mode.is-focused::shadow .cursor,
+atom-text-editor.vim-mode.normal-mode.is-focused .cursor,
+atom-text-editor.vim-mode.operator-pending-mode.is-focused .cursor,
+atom-text-editor.vim-mode.visual-mode.is-focused .cursor {
+    opacity: 0.75;
+}
+
+.tool-panel.panel-bottom {
+  background: @green;
+}
